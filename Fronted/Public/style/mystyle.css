@@ -1,0 +1,412 @@
+
+        .img {
+
+
+            background-image: url(../Image/study3.jpg);
+
+            height: 700px;
+
+
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+
+        }
+
+        * {
+            margin: 0px;
+        }
+
+        .first {
+            background-color: #dcdc;
+        }
+
+        a {
+            text-decoration: none;
+            color: grey;
+            font-size: 20px;
+            font-family: "Lato", sans-serif;
+            font-weight: lighter;
+        }
+
+        th {
+            margin-top: 10px;
+        }
+
+        img {
+            margin-top: 10px;
+        }
+
+        #h1 {
+            padding-top: 310px;
+            font-size: 65px;
+            color: ghostwhite;
+            text-shadow: 2px 2px blue;
+            padding-left: 530px;
+        }
+
+        #h2 {
+            font-size: 65px;
+            color: ghostwhite;
+            text-shadow: 2px 2px blue;
+            padding-left: 550px;
+        }
+
+        #but {
+            border-radius: 24px;
+            ;
+            font-size: 20px;
+            margin-top: 60px;
+            margin-left: 660px;
+            padding: 10px 20px 10px 20px;
+            background-color: aquamarine;
+        }
+
+        #about {
+
+            height: 500px;
+            background-image: url(../Image/study4.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        #ab {
+            padding-top: 30px;
+            padding: 10px;
+            background-color: tomato;
+            color: white;
+            text-align: center;
+        }
+
+        #h3 {
+            padding-top: 40px;
+            font-size: 50px;
+            color: ghostwhite;
+            text-shadow: 2px 2px blue;
+
+        }
+
+        #h4 {
+            font-size: 30px;
+            color: lightgreen;
+            width: 400px;
+            margin-top: 20px;
+            font-weight: bolder;
+            text-shadow: 2px 2px darkorange;
+        }
+
+        #Book {
+            height: 650px;
+            background-image: url(../Image/study4.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 45px;
+
+
+
+        }
+
+        #detail {
+            height: 420px;
+            background-image: url("../Image/sunny.jpg");
+            padding: 45px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+
+
+        }
+
+        #temp {
+            height: 500px;
+            width: 260px;
+            background-color: olive;
+            border-radius: 45px;
+            border-style: solid;
+            border-color: black;
+            box-shadow: 4px 4px 0px black;
+            margin-top: 100px;
+            position: absolute;
+
+        }
+
+        #temp1 {
+            height: 300px;
+            width: 260px;
+            background-color: white;
+            border-radius: 45px;
+            border-style: solid;
+            border-color: black;
+            box-shadow: 4px 4px 0px black;
+            margin-top: 65px;
+            position: absolute;
+
+        }
+
+        #temp2 {
+            height: 300px;
+            width: 260px;
+            background-color: #dcdc;
+            border-radius: 45px;
+            border-style: solid;
+            border-color: black;
+            box-shadow: 4px 4px 0px black;
+            margin-top: 65px;
+            margin-left: 24%;
+            position: absolute;
+
+        }
+
+        #temp3 {
+            height: 300px;
+            width: 260px;
+            background-color: white;
+            border-radius: 45px;
+            border-style: solid;
+            border-color: black;
+            box-shadow: 4px 4px 0px black;
+            margin-top: 65px;
+            margin-left: 50%;
+            position: absolute;
+
+        }
+
+        #temp4 {
+            height: 300px;
+            width: 260px;
+            background-color: #dcdc;
+            border-radius: 45px;
+            border-style: solid;
+            border-color: black;
+            box-shadow: 4px 4px 0px black;
+            margin-top: 65px;
+            margin-left: 75%;
+            position: absolute;
+
+        }
+
+        #imgtemp1 {
+            height: 164px;
+            width: 260px;
+            padding: 5px;
+
+        }
+
+        #h5 {
+
+            font-size: 50px;
+            color: white;
+            text-shadow: 2px 2px blue;
+
+
+        }
+
+        #cont {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding: 40px;
+
+        }
+
+        #login {
+
+            background-color: rgb(24, 22, 22);
+            color: white;
+            padding: 40px;
+        }
+
+        #email {
+            flex: 1;
+
+
+        }
+
+        #Address {
+            flex: 2;
+            width: 140px;
+
+            margin-left: 100px;
+
+
+
+        }
+
+        .copyright {
+
+
+            font-size: 15px;
+
+            font-weight: bolder;
+        }
+
+        .list-inline-item {
+
+            float: right;
+            list-style: none;
+        }
+
+        #but:hover {
+            color: white;
+            background-color: yellowgreen;
+            font-size: 24px;
+        }
+
+        #temp5 {
+            height: 600px;
+            width: 1400px;
+            background-color: #F4F2E9;
+            border-radius: 45px;
+            border-style: solid;
+            border-color: rgb(143, 140, 140);
+            box-shadow: 4px 4px 0px rgb(173, 165, 165);
+            margin-top: 30px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            position: absolute;
+
+        }
+
+        #a {
+
+
+            position: relative;
+            margin-top: 0px;
+            height: 300px;
+            border-radius: 45px 45px 0px 0px;
+            border-style: hidden;
+
+            box-shadow: 4px 4px 0px rgb(173, 165, 165);
+
+
+        }
+
+        #b {
+
+            border-radius: 0px 0px 45px 45px;
+            border-style: hidden;
+
+            position: relative;
+            height: 300px;
+            margin-bottom: 0px;
+
+
+        }
+
+        #l {
+
+            position: absolute;
+            margin-top: 50px;
+            margin-left: 50px;
+            width: 310px;
+            height: 200px;
+            border-radius: 25px 25px 25px 25px;
+            border-style: hidden;
+
+        }
+
+        #s {
+            margin-left: 500px;
+            margin-top: 20px;
+            padding: 5px;
+            height: 250px;
+            position: absolute;
+        }
+
+        #p {
+            margin-left: 700px;
+            margin-top: 20px;
+            padding: 5px;
+            height: 250px;
+            position: absolute;
+
+
+        }
+
+        #q {
+            margin-left: 900px;
+            margin-top: 20px;
+            padding: 5px;
+            height: 250px;
+            position: absolute;
+
+
+        }
+
+        #r {
+            margin-left: 1100px;
+            margin-top: 20px;
+            padding: 5px;
+            height: 250px;
+            position: absolute;
+
+
+        }
+
+        .o {
+
+            text-decoration-color: black;
+            font-family: sans-serif;
+
+            margin-top: 20px;
+
+
+        }
+
+        #s:hover {
+            opacity: 40%;
+
+        }
+
+        #p:hover {
+            opacity: 40%;
+
+        }
+
+        #q:hover {
+            opacity: 40%;
+
+        }
+
+        #r:hover {
+            opacity: 40%;
+
+        }
+
+        .m {
+
+            margin-left: 1400;
+            size: 100px;
+
+
+
+        }
+
+        #bot {
+
+            color: blue;
+            height: 70px;
+            width: 180px;
+            margin-top: 25px;
+            margin-left: 110px;
+            cursor: pointer;
+            border-radius: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        #bot:hover {
+            color: white;
+            background-color: rgb(222, 229, 208);
+            font-size: 26px;
+            box-shadow: blue;
+            background-origin: padding-box;
+            border-radius: 10px;
+
+        }
+   

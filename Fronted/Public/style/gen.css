@@ -1,0 +1,169 @@
+.first {
+    background-color: rgb(255, 255, 255);
+    padding: 0.5px 35px 0.5px 35px;
+    width: 320px;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 0px #dcdcdc;
+
+
+}
+
+
+#third {
+    width: 240px;
+    position: absolute;
+    background-color: rgba(255, 235, 205, 0.591);
+    height: 580px;
+    margin-top: 0px;
+    border-radius: 2px 50px;
+
+}
+
+
+
+
+
+
+#four {
+    margin-left: 250px;
+    /* position: absolute; */
+    background-color: white;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 2px 50px;
+
+}
+
+li {
+    list-style: decimal;
+    line-height: 50px;
+}
+
+ul {
+
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(../Image/study.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#i2 {
+    width: 240px;
+    /* position: relative; */
+
+    height: 290px;
+
+    border-radius: 0px 50px 0px 0px;
+position: relative;
+
+
+}
+
+#i3 {
+    width: 240px;
+    height: 290px;
+    margin-top: -5px;
+
+
+    border-radius: 0px 0px 0px 50px;
+position: relative;
+
+
+}
+ul{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: lighter;
+
+}
+*{
+    margin: 0px;
+}
+
+th {
+    margin-top: 9px;
+}
+
+img {
+    margin-top: 0 px;
+}
+
+#email {
+    flex: 1;
+
+
+}
+
+#Address {
+    flex: 2;
+    width: 140px;
+
+    margin-left: 100px;
+  
+
+
+
+}
+
+#email {
+    flex: 1;
+
+
+
+}
+
+#Address {
+    flex: 2;
+    width: 140px;
+
+    margin-left: 100px;
+
+
+
+}
+
+#cont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 40px;
+
+}
+
+.copyright {
+
+
+    font-size: 15px;
+
+    font-weight: bolder;
+}
+
+.list-inline-item {
+
+    float: right;
+    list-style: none;
+}
+
+#login {
+    background-color: rgb(24, 22, 22);
+    color: white;
+    padding: 40px;
+    margin-top: 120px;
+}

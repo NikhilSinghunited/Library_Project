@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sign up / Login Form</title>
+  <link rel="stylesheet" href="./style/signup.css">
+
+</head>
+<body>
+    
+
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form id="myForm"method="post"class="signup.html"onclick="postdata">
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" name="name"id="n1" placeholder="User name" >
+					<input  name="email"id="q1" placeholder="Email" >
+					<input type="password" name="password"id="p1" placeholder="Password" >
+					<!-- <button>Sign up</button> -->
+                    <a href="index.html"><button type="submit" onClick="create_account()"> Sign up</button></a>
+        
+				</form>
+			</div>
+
+			<div class="login">
+				<form id="yourForm" action="/login" method="post"onclick="postdata">
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="text" name="email" id="email"placeholder="Email" >
+					<input type="password" name="password"id="email"placeholder="Password" required="">
+					<a href="index.html"><button type="submit"onclick="create_account2()" > Login</button></a>
+        
+            
+        
+				</form>
+			</div>
+	</div>
+    <script type="text/javascript">
+        function create_account()
+         {
+            var n = document.getElementById("n1").value;
+
+            var p = document.getElementById("p1").value;
+            var q=document.getElementById("q1").value;
+
+            //Code for password validation  
+            var letters = /^[A-Za-z]+$/;
+
+            //other validations required code  
+            if (n == '' || p == '') {
+                alert("Enter each details correctly");
+            }
+            else if (!letters.test(n)) {
+                alert('Name is incorrect must contain alphabets only');
+            }
+
+
+
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(myForm.email.value.match(mailformat))
+{
+document.myForm.q1.focus();
+return true;
+}
+else
+{
+alert("You have entered an invalid email address!");
+document.myForm.q1.focus();
+return false;
+}
+// 
+
+             if (document.getElementById("p1").value.length > 12) {
+                alert("Password maximum length is 12");
+            }
+            else if (document.getElementById("p1").value.length < 6) {
+                alert("Password minimum length is 6");
+            }
+            else {
+                
+                 
+
+            }
+        } 
+        // validation for login--
+        function create_account2()
+         {
+            var n1 = document.getElementById("t1").value;
+
+            var p1 = document.getElementById("t2").value; 
+             //Code for password validation  
+             var letters = /^[A-Za-z]+$/;
+
+//other validations required code  
+if (n1 == '' || p1 == '') {
+    alert("Enter each details correctly");
+}
+
+
+
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(yourForm.email.value.match(mailformat))
+{
+document.yourForm.t1.focus();
+return true;
+}
+else
+{
+alert("You have entered an invalid email address!");
+document.yourForm.t1.focus();
+return false;
+}
+// 
+
+ if (document.getElementById("t2").value.length > 12) {
+    alert("Password maximum length is 12");
+}
+else if (document.getElementById("t2").value.length < 6) {
+    alert("Password minimum length is 6");
+}
+else {
+    
+     
+
+}
+} 
+
+    </script>
+   
+</body>
+</html>
+

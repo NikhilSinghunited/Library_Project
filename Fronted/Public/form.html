@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+
+
+ 
+    
+      <title> Add Book </title>
+      <link rel="stylesheet" href="style\form.css">
+    </head>
+    
+    <body>
+      <div class="first">
+        <table style="width:100%">
+          <tr>
+    
+            <th><a href="index.html"><img src=Image/logo.jpeg></a></th>
+            <th><a href="3.html">Home</a></th>
+            <th><a href="signup.html">Sign up</a></th>
+            <th><a href="show.html">Books</a></th>
+            <th><a href="gen.html">Gen Info</a></th>
+            
+          </tr>
+       
+        
+        </table><br>
+        </div>
+        <div class="img">
+            <div class="form">
+            
+    
+            <form action="/form.html" method="post">
+             
+              <div class="container">
+                <label>Book Image Name :</label>
+                <input type="text" placeholder="Enter book link" name="imgname" required>
+            
+                <label >Book detail:</label>
+                <input type="text" placeholder=" Enter book detail" name="bookd" required>
+                    
+                <button type="submit">Submit</button>
+               
+              </div>
+            
+              
+            </form>  
+        </div>
+        </div>
+     
+      <script type="text/javascript">
+        function create_account() {
+          var n = document.getElementById("n1").value;
+    
+          var p = document.getElementById("p1").value;
+    
+          
+          //other validations required code  
+          if (n == '' || p == '') {
+            alert("Enter each details correctly");
+          }
+          else if (!letters.test(n)) {
+            alert(' Book Name is incorrect');
+          }
+    
+          else if (document.getElementById("p1").value.length > 250) {
+            alert("maximum length is 250");
+          }
+          
+          else {
+            
+    
+    
+          }
+        }  
+      </script>
+    </body>
+    
+    </html>
+
+
+
+
+
+</body>
+
+
+    </html>
